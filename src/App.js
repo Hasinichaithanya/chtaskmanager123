@@ -80,6 +80,7 @@ class App extends Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <h1>Create a task!</h1>
+          <p>add your tasks here based on the tags</p>
           <div>
             <label htmlFor="task">Task</label>
             <input
